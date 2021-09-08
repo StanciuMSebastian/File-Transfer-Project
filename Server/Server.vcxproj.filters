@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Baza de date">
+      <UniqueIdentifier>{eb7c9b31-0e17-48a7-a22c-eb213475ab10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fisiere">
+      <UniqueIdentifier>{bf96c14e-c384-4601-900b-802a93662b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\User">
+      <UniqueIdentifier>{a302c25f-7187-4c4b-80ad-9e8340badc48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Define">
+      <UniqueIdentifier>{50d411f4-e9d0-4c1c-9484-1cb0e7459663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\User Files">
+      <UniqueIdentifier>{653de6ec-48ef-4307-8e23-58dbbbdfe3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Baza de date">
+      <UniqueIdentifier>{4c93a5bd-8c8f-4fc7-b28c-967e73757e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fisiere">
+      <UniqueIdentifier>{1040ee2e-b4b1-4d69-91ab-2856d06b7556}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BazaDeDate.cpp">
+      <Filter>Source Files\Baza de date</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteFiles.cpp">
+      <Filter>Source Files\Baza de date</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertFiles.cpp">
+      <Filter>Source Files\Baza de date</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertQuery.cpp">
+      <Filter>Source Files\Baza de date</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectFilesQuery.cpp">
+      <Filter>Source Files\Baza de date</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectQuery.cpp">
+      <Filter>Source Files\Baza de date</Filter>
+    </ClCompile>
+    <ClCompile Include="AllUsers.cpp">
+      <Filter>Source Files\User Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\User Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AllFiles.cpp">
+      <Filter>Source Files\Fisiere</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Source Files\Fisiere</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateQuery.cpp">
+      <Filter>Source Files\Baza de date</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BazaDeDate.h">
+      <Filter>Header Files\Baza de date</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteFiles.h">
+      <Filter>Header Files\Baza de date</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertFiles.h">
+      <Filter>Header Files\Baza de date</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertQuery.h">
+      <Filter>Header Files\Baza de date</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectFilesQuery.h">
+      <Filter>Header Files\Baza de date</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectQuery.h">
+      <Filter>Header Files\Baza de date</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateQuery.h">
+      <Filter>Header Files\Baza de date</Filter>
+    </ClInclude>
+    <ClInclude Include="AllFiles.h">
+      <Filter>Header Files\Fisiere</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Header Files\Fisiere</Filter>
+    </ClInclude>
+    <ClInclude Include="IFile.h">
+      <Filter>Header Files\Fisiere</Filter>
+    </ClInclude>
+    <ClInclude Include="AllUsers.h">
+      <Filter>Header Files\User</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files\User</Filter>
+    </ClInclude>
+    <ClInclude Include="IUser.h">
+      <Filter>Header Files\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Header Files\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="packet.h">
+      <Filter>Header Files\Define</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="users.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="files.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
