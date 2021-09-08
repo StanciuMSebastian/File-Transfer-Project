@@ -28,8 +28,10 @@ void SelectQuery::ExecuteQuery()
 		if (SQL_SUCCESS != SQLSetConnectAttr(SQLConnectionHandle, SQL_LOGIN_TIMEOUT, (SQLPOINTER)5, 0))
 			// Sets attributes that govern aspects of connections
 			return;
+	//editeaza numele tabelului
 		char SQLQuery[] = "SELECT * FROM Clienti";
 		SQLCHAR retConString[1024]; // Conection string
+	//editeaza DATABASE-ul
 		switch (SQLDriverConnect(SQLConnectionHandle, NULL, (SQLCHAR*)"DRIVER={SQL Server Native Client 11.0};SERVER=localhost;DATABASE=File-Sharing;Trusted_Connection=yes;", SQL_NTS, retConString, 1024, NULL, SQL_DRIVER_NOPROMPT)) {
 			// Establishes connections to a driver and a data source
 		case SQL_SUCCESS:
